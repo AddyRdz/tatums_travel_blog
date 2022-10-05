@@ -18,14 +18,32 @@ body{
 
 article{
     color: #cc99ff;
+    border-radius: 0.75em;
+    padding: 50px;
+    box-shadow: 10px 5px 5px;
 }
 
 header{
     background-image: url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
     background-size: cover;
     color:cornsilk;
+    border-radius: 0.75em;
+    padding: 50px;
+    box-shadow: 10px 5px 5px;
+    text-shadow: 2px 2px black;
 }
 a{
     color: lightseagreen;
     text-decoration: none;
+}
+img{
+    display: block;
+    height: 20%;
+    border: solid rgb(144, 165, 147);
+    border-radius: 0.75em;
+    box-shadow: 10px 5px 5px;
+}
+
+.subheading{
+    border-bottom: solid black;
 }
